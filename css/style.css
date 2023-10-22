@@ -1,0 +1,82 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+    border-bottom: 1px solid rgb(0, 11, 11);
+}
+
+.nav-logo img {
+    max-height: 50px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-item {
+    padding: 2px 1em;
+    border: 1px solid black;
+    min-width: 60px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item:hover {
+    background: rgb(14, 13, 13);
+    color: aliceblue;
+}
+
+.greetings {
+    padding: 2em 3em; /* Mengubah padding kiri-kanan */
+}
+
+.banner {
+    border-bottom: 1px solid black;
+    background-image: url('../asset/pantaii.jpg');
+    background-size: cover;
+    height: 400px;
+}
+
+.headquarters {
+    padding: 3em;
+}
+
+.tutor-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; /* Mengubah "flex-wrap:" menjadi "flex-wrap: wrap;" */
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center; /* Menambahkan "text-align: center;" untuk mengatur teks ke tengah */
+}
+
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p {
+    font-family: 'Comic Sans MS'; /* Merubah 'comic sans ms' menjadi 'Comic Sans MS' (pastikan font tersedia) */
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #020008;
+}
+
+.hq-items {
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-text {
+    color: gray;
+    font-size: small;
+}
