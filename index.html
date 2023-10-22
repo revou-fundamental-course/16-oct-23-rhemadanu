@@ -50,11 +50,11 @@
             <table>
                 <tr>
                     <td>Nama</td>
-                    <td>: <input id="nama1" name="nama" type="text" placeholder="Nama"></td>
+                    <td>: <input id="nama" name="nama" type="text" placeholder="Nama"></td>
                 </tr>
                 <tr>
                     <td>Tanggal lahir</td>
-                    <td>: <input type="date" name="tanggal-lahir"></td>
+                    <td>: <input id="tanggal" type="date" name="tanggal"></td>
                 </tr>
                 <tr>
                     <td>Jenis kelamin</td>
@@ -68,7 +68,7 @@
                 </tr>
                 <tr>
                     <td>Pesan :</td>
-                    <td><textarea style="height: 100px; width: 200px" name="Pesan"></textarea></td>
+                    <td><textarea id="pesan" style="height: 100px; width: 200px" name="Pesan"></textarea></td>
                 </tr>
                 <tr>
                     <td></td>
@@ -77,6 +77,22 @@
             </table>
         </form>
         <div class="form-right"></div>
+    </form>
+    <div id="hasilBox">
+        <table border="1">
+            <tr>
+                <th>Nama</th>
+                <th>Tanggal</th>
+                <th>Pesan</th>
+            </tr>
+            <tr>
+                <td id="hasilNama"></td>
+                <td id="hasilTanggal"></td>
+                <td id="hasilPesan"></td>
+            </tr>
+        </table>
+    </div>
+
     </section>
     <footer class="footer">
         <p class="footer-text">made by rhemadanu</p>
